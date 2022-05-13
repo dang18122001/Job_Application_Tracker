@@ -1,0 +1,46 @@
+/* https://www.w3schools.com/css/tryit.asp?filename=trycss_table_fancy */
+#applications {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+  
+#applications td, #applications th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+  
+#applications tr:nth-child(even){background-color: #f2f2f2;}
+  
+#applications tr:hover {background-color: #ddd;}
+  
+#applications th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+}
+
+/* https://www.w3schools.com/css/tryit.asp?filename=trycss_table_fancy */
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+h1 {
+    color: #4CAF50;
+    font-family: arial, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 1px;
+}
